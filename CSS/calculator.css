@@ -4,6 +4,11 @@ body {
 *:focus{
     outline: none;
 }
+
+@font-face{
+    font-family: azam;
+    src: url(/font/digital-7\ mono\ italic);
+}
 .col {
     width: 350px;
     height: 540px;
@@ -15,7 +20,7 @@ body {
 }
 
 .monitor {
-    min-height: 100px;
+    min-height: 110px;
     background-color: #acbe8a;
     padding: 10px;
     color: #fff;
@@ -26,6 +31,7 @@ body {
 
 .top-monitor {
     font-size: 26px;
+    font-family: azam;
 }
 
 .main-monitor {
