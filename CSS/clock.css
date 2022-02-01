@@ -1,0 +1,100 @@
+.clock-main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* CLOCK BACKGROUND CSS */
+
+
+.clock {
+    width: 500px;
+    height: 500px;
+    background: url(./img/roman-numerals-png-42132.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock::before{
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000;
+}
+
+.clock-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+/* SECOND CSS */
+.seconds{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    transform: rotate(0deg);
+    position: absolute;
+}
+.seconds::before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 36%);
+    width: 15px;
+    height: 280px;
+    background: url(./img/second.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* MINUTES CSS */
+.minutes{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    transform: rotate(35deg);
+    position: absolute;
+}
+.minutes::before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 16%);
+    width: 15px;
+    height: 183px;
+    background: url(./img/minutes.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* HOUR CSS */
+.hours{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.hours::before{
+   content: "";
+   position: absolute;
+   bottom: 100%;
+   left: 50%;
+   transform: translate(-50%, 21%);
+   width: 15px;
+   height: 150px;
+   background: url(./img/hours.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
