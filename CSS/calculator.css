@@ -6,7 +6,7 @@ body {
 }
 
 @font-face{
-    font-family: azam;
+    font-family: ak;
     src: url(/font/digital-7\ mono\ italic);
 }
 .col {
@@ -31,7 +31,7 @@ body {
 
 .top-monitor {
     font-size: 26px;
-    font-family: azam;
+    font-family: ak;
 }
 
 .main-monitor {
